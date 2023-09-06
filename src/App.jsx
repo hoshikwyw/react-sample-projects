@@ -5,10 +5,16 @@ import LikePhoto from "./projects/03-give-like-to-photo/LikePhoto";
 
 const App = () => {
   return (
-    <div>
+    <div className=" flex flex-col items-center justify-center gap-10">
+      <div className=" bg-slate-500 p-10 rounded-md mx-auto">
       <ESignature />
+      </div>
+      <div className=" p-10 rounded-md mx-auto">
       <RandomColor />
+      </div>
+      <div className=" bg-red-200 p-10 rounded-md w-full">
       <LikePhoto />
+      </div>
     </div>
   );
 };
